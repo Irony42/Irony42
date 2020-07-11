@@ -11,7 +11,6 @@ Shortways is the tool that simplifies the training, adoption and proper handling
 
 ## Technologies
 
-I mostly use: 
 **Frontend** 
 - Typescript
 - React
@@ -26,3 +25,10 @@ I mostly use:
 - Docker
 - Kubernetes
 - AWS (ECS, EKS, S3, Cloudfront, ...)
+- MySQL, Redis
+- Logstash
+
+**Other**
+- Unit tests
+- End-to-end tests
+- Agile methodologies
