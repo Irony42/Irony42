@@ -16,14 +16,18 @@ Shortways is the tool that simplifies the training, adoption and proper handling
 - React
 - Redux
 - Redux logic
+- Next.js
 
 **Backend**
 - Scala
 - Akka http
+- NodeJs
+- Express
 
 **Architecture** 
 - Docker
 - Kubernetes
+- Terraform
 - AWS (ECS, EKS, S3, Cloudfront, ...)
 - MySQL, Redis
 - Logstash
