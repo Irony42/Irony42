@@ -7,32 +7,33 @@ I work at [Shortways](https://shortways.com) as a full stack developper.
 
 Shortways is the tool that simplifies the training, adoption and proper handling of your business software by your employees.
 
-![Shortways logo](http://shortways.com/wp-content/uploads/2016/04/logo-shortways-png.png)
-
 ## Technologies
 
 **Frontend** 
-- Typescript
 - React
-- Redux
-- Redux logic
 - Next.js
+- Storybook
 
 **Backend**
-- Scala
-- Akka http
-- NodeJs
-- Express
+- **Scala**: Akka HTTP
+- **Node.js**: Express, Koa, NestJs (Typescript)
+- **Architecture**: Clean architecture / Hexagonal architecture
+- **Security**: OAuth2, OpenID Connect, JWT
+- **Databases**: MySQL, MongoDB, Redis (cache, pub/sub)
 
-**Architecture** 
+**Technical architecture** 
 - Docker
 - Kubernetes
 - Terraform
-- AWS (ECS, EKS, S3, Cloudfront, ...)
-- MySQL, Redis
+- AWS: ECS, EKS, S3, Cloudfront, ...
 - Logstash
 
+**AI & Engineering Productivity**
+- **AI-Assisted Development:** Advanced use of Cursor & GitHub Copilot
+- **Developer Experience (DX):** Standards & Rules implementation for AI-driven code generation
+- **AI Prototyping:** Development of internal POCs and LLM integrations
+- **Prompt Engineering:** Architecture-aware prompting and automated unit test generation
+
 **Other**
-- Unit tests
-- End-to-end tests
-- Agile methodologies
+- TDD (Unit and E2E Testing)
+- Agile methodologies (Kanban/Scrum)
