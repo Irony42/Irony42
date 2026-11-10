@@ -1,39 +1,90 @@
-# Irony42
+```
+IRONY42(1)                  GitHub Profile Manual                  IRONY42(1)
 
-**Hello !**
+NAME
+       irony42 - full-stack developer, Laval, France
 
-I'm Pierre. I'm a software engineer from France.
-I work at [Shortways](https://shortways.com) as a full stack developper.
+SYNOPSIS
+       irony42 [OPTION]... [PROBLEM]
 
-Shortways is the tool that simplifies the training, adoption and proper handling of your business software by your employees.
+DESCRIPTION
+       Pierre has been writing software at Shortways since 2013, with a
+       one-year detour at Fiteco. Shortways puts contextual help inside the
+       business applications people use at work. He works on all of it:
+       the assistant that runs in the browser, the services behind it and
+       the platform they run on.
 
-## Technologies
+       Outside work he builds side projects end to end: domain model,
+       tests, release pipeline, and the server they run on.
 
-**Frontend** 
-- React
-- Next.js
-- Storybook
+OPTIONS
+   Day job
+       --browser
+              TypeScript, React, Redux, Next.js.
 
-**Backend**
-- **Scala**: Akka HTTP
-- **Node.js**: Express, Koa, NestJs (Typescript)
-- **Architecture**: Clean architecture / Hexagonal architecture
-- **Security**: OAuth2, OpenID Connect, JWT
-- **Databases**: MySQL, MongoDB, Redis (cache, pub/sub)
+       --server
+              Scala (Akka HTTP), Node.js (Express, Koa, NestJS). MySQL,
+              MongoDB, Redis.
 
-**Technical architecture** 
-- Docker
-- Kubernetes
-- Terraform
-- AWS: ECS, EKS, S3, Cloudfront, ...
-- Logstash
+       --platform
+              AWS, Docker, Kubernetes, Terraform, Jenkins.
 
-**AI & Engineering Productivity**
-- **AI-Assisted Development:** Advanced use of Cursor & GitHub Copilot
-- **Developer Experience (DX):** Standards & Rules implementation for AI-driven code generation
-- **AI Prototyping:** Development of internal POCs and LLM integrations
-- **Prompt Engineering:** Architecture-aware prompting and automated unit test generation
+       --sso  SAML, OpenID Connect, OAuth2.
 
-**Other**
-- TDD (Unit and E2E Testing)
-- Agile methodologies (Kanban/Scrum)
+   Side projects
+       --node Node.js 24, Express, Hono, Zod, SQLite. sharp and ffmpeg
+              for photos and videos.
+
+       --web  React, Vite, TanStack Query, Astro, service workers. Pages
+              checked with axe (WCAG 2.2 AA) and Lighthouse.
+
+       --edge Cloudflare Workers, Durable Objects.
+
+       --dotnet
+              C#, .NET 10, WinForms and WebView2, xUnit.
+
+       --design
+              Hexagonal architecture, decisions written down as ADRs.
+
+       --test Vitest, Testing Library, Playwright, fast-check. Tests
+              first.
+
+       --ship Multi-arch Docker images signed with cosign, with an SBOM
+              and a vulnerability scan. OWASP ZAP in CI. release-please
+              for versions and changelogs.
+
+       --ops  One small production on OVHcloud: Caddy, Docker Compose,
+              cloud-init, systemd timers, restic backups, secrets in sops
+              and age.
+
+       --agents
+              Claude Code with project skills, hooks and a review agent.
+              At work: project rules, review checklists, and a bot that
+              triages Dependabot PRs.
+
+       --tried
+              Deno, Gemini API, Firebase.
+
+ENVIRONMENT
+       LANG   fr_FR.UTF-8. en_US is fully supported. de_DE is partial.
+
+FILES
+       github.com/Irony42/EventSlide
+              Live photo wall for events. Self-hosted, or at eventslide.fr.
+
+       github.com/Irony42/Thermonitor
+              Live PC temperatures on Windows.
+
+SEE ALSO
+       eventslide(8), thermonitor(8), linkedin(7)
+
+BUGS
+       Report them in the issue tracker of the relevant repository.
+
+Laval                            November 2026                     IRONY42(1)
+```
+
+<samp>
+<a href="https://github.com/Irony42/EventSlide">eventslide</a> ·
+<a href="https://github.com/Irony42/Thermonitor">thermonitor</a>
+</samp>
